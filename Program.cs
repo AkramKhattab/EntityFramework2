@@ -276,7 +276,6 @@ namespace C42_G04_EF02
                 Console.WriteLine("Employee not found");
             }
         }
-
         static void DeleteDepartment(AppDbContext context, int id)
         {
             var department = context.Departments.Find(id);
